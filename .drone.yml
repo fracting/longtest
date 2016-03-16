@@ -1,4 +1,4 @@
 build:
-  image: fracting/msys32
+  image: alpine
   commands:
     - ./loop.sh | grep -n .
