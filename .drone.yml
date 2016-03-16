@@ -1,5 +1,4 @@
 build:
   image: fracting/msys32
-  shell: msys32
   commands:
     - ./loop.sh | grep -n .
